@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image.ico" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <title>MP Dev</title>
+  </head>
+  <body>
+    <nav>
+      <div class="entete">
+        <img src="images/MP.png" class="logo" alt="logo" />
+        <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="compétences.html">Compétences</a></li>
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="contact">
+      <form>
+        <fieldset>
+          <legend>Contactez-moi !</legend>
+          <label for="Nom">Nom :</label>
+          <input type="text" id="nom" placeholder="Entrer votre nom" /><br />
+          <label for="Prenom">Prénom :</label>
+          <input
+            type="text"
+            id="prenom"
+            placeholder="Entrer votre prénom"
+          /><br />
+          <label for="Mail">Adresse Mail :</label>
+          <input
+            type="text"
+            id="mail"
+            placeholder="Entrer votre adresse mail"
+          /><br />
+          <label for="Message">Message :</label><br />
+          <textarea
+            cols="60"
+            rows="5"
+            id="message"
+            name="message"
+            placeholder="Entrer votre message"
+          ></textarea
+          ><br />
+          <input type="submit" value="Envoyer" id="submit" />
+        </fieldset>
+      </form>
+    </section>
+
+    <footer>
+      <ul class="coordonne">
+        <li>Pain</li>
+        <li>Mathis</li>
+        <li>mathis.pain76@gmailcom</li>
+        <li>06 59 52 82 21</li>
+      </ul>
+    </footer>
+  </body>
+</html>
